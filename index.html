@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <style>
+      * {
+        margin: 0;
+      }
+      @font-face {
+        font-family: 'Figtree';
+        src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format(truetype);
+      }
+      html {
+        height: 100%;
+      }
+      img {
+        border-radius: 10px;
+      }
+      .author {
+        width: 129px;
+        height: 32px;
+      }
+      .author img {
+        width: 32px;
+        height: 32px;
+      }
+      
+      body{
+        height: 100vh;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F4D04E;
+        font-family: 'Figtree', sans-serif;
+      }
+      main {
+        width:384px;
+        height:522px;
+      }
+      .box {
+        
+        
+        background-color: #FFFFFF;
+        border: 1px solid black;
+        border-radius: 20px;
+        box-shadow: 8px 8px #000000;
+        
+      }
+      .container {
+        margin: 24px;
+        
+
+      }
+      .items {
+        margin: 24px 0;
+        display: flex;
+        flex-direction: column;
+        row-gap: 12px;
+      }
+      .hashtag {
+        width: 82px;
+        height: 29px;
+        background-color: #F4D04E;
+        font-size: 14px;
+        font-weight: 800;
+        border-radius: 4px;;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .date {
+        font-size: 14px;
+        font-weight: 500;
+      }
+      h1 {
+        font-size: 24px;
+        font-weight: 800;
+        
+      }
+      article {
+        font-size: 16px;
+        font-weight: 500;
+        color: #7F7F7F;
+      }
+      .author {
+        display:flex;
+        font-size: 14px;
+        font-weight: 800;
+        align-items: center;
+        column-gap: 12px;
+      }
+    </style>
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <div class="container">
+          <img
+            src="./assets/images/illustration-article.svg"
+            alt="coding symbols"
+            class="main-img"
+          />
+          <div class="items">
+          <p class="hashtag">Learning</p>
+
+          <p class="date">Published 21 Dec 2023</p>
+
+          <h1>HTML & CSS foundations</h1>
+
+          <article>
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </article>
+        </div>
+          <p class="author">
+            <img
+              src="./assets/images/image-avatar.webp"
+              alt="author photo"
+              class="author-img"
+            />
+            Greg Hooper
+          </p>
+        
+        </div>
+      </div>
+    </main>
+    <!--
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  --></body>
+</html>
